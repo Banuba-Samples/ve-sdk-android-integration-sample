@@ -9,6 +9,7 @@ import com.banuba.example.integrationapp.videoeditor.export.IntegrationAppExport
 import com.banuba.example.integrationapp.videoeditor.impl.*
 import com.banuba.sdk.arcloud.data.source.ArEffectsRepositoryProvider
 import com.banuba.sdk.audiobrowser.domain.AudioBrowserMusicProvider
+import com.banuba.sdk.cameraui.data.CameraConfig
 import com.banuba.sdk.cameraui.data.CameraTimerActionProvider
 import com.banuba.sdk.cameraui.data.CameraTimerStateProvider
 import com.banuba.sdk.cameraui.data.CameraTimerUpdateProvider
@@ -116,6 +117,14 @@ class IntegrationKoinModule {
         single<EditorConfig> {
             EditorConfig(
                 minTotalVideoDurationMs = 1500
+            )
+        }
+
+        single<CameraConfig> {
+            CameraConfig(
+                // Customize property in your camera config
+                // volume is between 0F and 1F where 1F is 100%
+                pipSourceVideoPlaybackVolume = 1F
             )
         }
 

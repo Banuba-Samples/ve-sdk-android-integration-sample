@@ -123,8 +123,10 @@ class IntegrationKoinModule {
         single<CameraConfig> {
             CameraConfig(
                 // Customize property in your camera config
-                // volume is between 0F and 1F where 1F is 100%
-                pipSourceVideoPlaybackVolume = 1F
+                // video playback volume is between 0F and 1F where 1F is 100%
+                pipSourceVideoPlaybackVolume = 0.5F,
+                // video recording volume is between 0F and 1F where 1F is 100%
+                pipCaptureAudioVolume = 0.5F
             )
         }
 

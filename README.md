@@ -22,8 +22,7 @@ Feel free to [contact us](https://www.banuba.com/faq/kb-tickets/new) if you have
 ### Installation
 1. Clone the repository
 2. Open the project in your IDE
-3. Add the license token [within the app](app/src/main/java/com/banuba/example/integrationapp/SampleApp.kt#L13)
-4. Run the sample application in your IDE
+3. Run the sample application in your IDE
 
 ### Integration guide
 Follow [Main Integration Guide](mddocs/integration_main.md) to continue integration and customization process of Video Editor SDK into your Android project.

@@ -13,10 +13,7 @@
 [Banuba Video Editor SDK](https://www.banuba.com/video-editor-sdk) allows you to quickly add short video functionality and possibly AR filters and effects into your mobile app.  
 The sample demonstrates how to integrate Video Editor SDK into Android project.
 
-## Usage
-### License
-Before you commit to a license, you are free to test all the features of the SDK for free. The trial period lasts 14 days. To start it, [send us a message](https://www.banuba.com/video-editor-sdk#form). 
-We will get back to you with the trial token.  
+## Usage 
 Feel free to [contact us](https://www.banuba.com/faq/kb-tickets/new) if you have any questions.
 
 ### Installation

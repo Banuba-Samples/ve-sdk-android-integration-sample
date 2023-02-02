@@ -1,6 +1,5 @@
 ## Video Editor UI SDK integration guide into Android project
 
-- [Prerequisite](#Prerequisite)
 - [Add dependencies](#Add-dependencies)
 - [Update AndroidManifest](#Update-AndroidManifest)
 - [Add resources](#Add-resources)
@@ -12,16 +11,6 @@
 - [FAQ](faq.md)
 - [Releases](#Releases)
 
-### Prerequisite
-:exclamation: The license token **IS REQUIRED** to run Video Editor SDK in your app.  
-Check [Installation](../README.md#Installation) guide if the license token is not set.
-
-To initialize Banuba Video Editor SDK with the license token use 
-``` kotlin
-val videoEditorSDK = BanubaVideoEditor.initialize(LICENSE_TOKEN)
-```
-instance ```videoEditorSDK``` is ```null``` in case if license is incorrect i.e. empty, truncated.
-If ```videoEditorSDK``` is not ```null``` you can proceed.
 
 ### Add dependencies
 GitHub packages is used for getting Android Video Editor SDK modules.
